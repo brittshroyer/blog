@@ -9,18 +9,16 @@ class App extends Component {
     return (
       <div className="App">
 
-        <div className="App-header">
-          <i class="icon-group"></i>
-          <h2>Pickzzzzz</h2>
-        </div>
 
-        <p className="App-intro">
+
+        <p className="navbar">
           <ul className="header">
             <li><IndexLink to="/" activeClassName="active">Home</IndexLink></li>
             <li><Link to="/Listen" activeClassName="active">Listen</Link></li>
             <li><Link to="/Watch" activeClassName="active">Watch</Link></li>
           </ul>
         </p>
+        
 
       </div>
     );

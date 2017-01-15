@@ -1,24 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
-import {Link, IndexLink} from 'react-router';
+import Nav from './components/Nav.js';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
 
+        <Nav />
+        <div className="content">
+          {this.props.children}
+        </div>
 
-
-        <p className="navbar">
-          <ul className="header">
-            <li><IndexLink to="/" activeClassName="active">Home</IndexLink></li>
-            <li><Link to="/Listen" activeClassName="active">Listen</Link></li>
-            <li><Link to="/Watch" activeClassName="active">Watch</Link></li>
-          </ul>
-        </p>
-        
 
       </div>
     );

@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
+import dotenv from 'dotenv';
+
+dotenv.config( { silent: true } );
 
 import {Router, Route, hashHistory, IndexRoute} from 'react-router';
 

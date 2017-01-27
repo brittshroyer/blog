@@ -5,6 +5,9 @@ class Watch extends Component{
     return(
       <div>
         <h2>Internet Bangers</h2>
+        <div className="antenna"></div>
+        <div className="top"></div>
+        <div className="tv"></div>
       </div>
     );
   }

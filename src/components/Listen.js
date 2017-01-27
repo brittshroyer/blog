@@ -25,7 +25,7 @@ class Listen extends Component{
   render(){
     return(
       <ul className="songs">
-        {songs}
+        
       </ul>
     );
   }

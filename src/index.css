@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   color: black;
+  background-color: grey;
 }
 .header li{
   list-style-type: none;
@@ -20,4 +21,27 @@ body {
 }
 .active{
   background: red;
+}
+.antenna{
+  width: 0;
+	height: 0;
+	border-left: 10px solid black;
+	border-right: 10px solid black;
+	border-top: 200px solid transparent;
+  margin: 0 auto;
+}
+.top{
+  height: 30px;
+  width: 60px;
+  border-radius: 60px 60px 0 0;
+  background-color: black;
+  margin: 0 auto;
+}
+.tv{
+  height: 400px;
+  width: 700px;
+  background-color: rgba(0,0,0,0);
+  border: 20px solid brown;
+  border-radius: 10px;
+  margin: 0 auto;
 }

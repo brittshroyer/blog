@@ -17,7 +17,7 @@ body {
   background-color: black;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: flex-end
 }
 .active{
   background: red;
@@ -29,6 +29,9 @@ body {
 	border-right: 10px solid black;
 	border-top: 200px solid transparent;
   margin: 0 auto;
+  margin-top: -75px;
+  z-index: -1;
+  position: relative;
 }
 .top{
   height: 30px;
@@ -44,4 +47,8 @@ body {
   border: 20px solid brown;
   border-radius: 10px;
   margin: 0 auto;
+}
+.search-bar{
+  z-index: 5;
+  position: relative;
 }

@@ -15,7 +15,7 @@ import Watch from './components/Watch.js';
 ReactDOM.render(
   (
   <Router history={hashHistory}>
-    <Route path="/" component={App} >
+    <Route path="/" component={App} >    
      <IndexRoute component={Home}/>
      <Route path="/listen" component={Listen}/>
      <Route path="/watch" component={Watch}/>
